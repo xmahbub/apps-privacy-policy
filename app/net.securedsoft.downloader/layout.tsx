@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SecuredSoft",
-  description: "SecuredSoft all apps Privacy Policies",
+  title: "Downloader App",
+  description: "Downloader App Privacy Policy",
 };
 
 export default function RootLayout({
@@ -23,12 +23,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
+    
+    <div
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-      </body>
-    </html>
+    </div>
+    
   );
 }
