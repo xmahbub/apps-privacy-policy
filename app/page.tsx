@@ -32,7 +32,7 @@ export default function Home() {
         {/* Main Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Downloader App Card */}
-          <Link href="/videodownloader.video.downloader" className="group">
+          <Link href="/video.downloader.social.videodownloader" className="group">
             <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300 h-full">
               <div className="flex items-center justify-center mb-6">
                 <div className="relative w-20 h-20 mr-4">
@@ -45,7 +45,7 @@ export default function Home() {
                 </div>
                 <div>
                   <h2 className="text-2xl font-semibold text-gray-900">Downloader</h2>
-                  <p className="text-sm text-gray-500">videodownloader.video.downloader</p>
+                  <p className="text-sm text-gray-500">video.downloader.social.videodownloader</p>
                 </div>
               </div>
               <p className="text-gray-600">

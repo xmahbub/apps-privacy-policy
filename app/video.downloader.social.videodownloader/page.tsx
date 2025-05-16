@@ -19,7 +19,7 @@ export default function PrivacyPolicy() {
               />
             </div>
             <h1 className="text-4xl font-bold text-gray-900 mb-1 text-center">Video Downloader: Overlay Play</h1>
-            <p className="text-sm bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent font-medium">videodownloader.video.downloader</p>
+            <p className="text-sm bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent font-medium">video.downloader.social.videodownloader</p>
             <p className="text-gray-600 mt-2">Secure File Downloader</p>
           </div>
         </div>
